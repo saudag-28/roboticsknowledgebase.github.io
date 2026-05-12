@@ -5,7 +5,7 @@
 date: 2024-02-12 # YYYY-MM-DD
 # This will be displayed at the bottom of the article
 # You should set the article's title:
-title: SMACH Library Overview
+title: SMACH Library
 # The 'title' is automatically displayed at the top of the page
 # and used in other parts of the site.
 ---
@@ -41,7 +41,7 @@ SMACH is a powerful tool particularly suited for scenarios where robots are requ
 While SMACH can be used to build finite state machines, its capabilities extend beyond that. It provides various "state containers" that can encapsulate other state machines or be part of larger containers themselves. This flexibility allows developers to construct intricate systems with nested state hierarchies
 
 ## Writing a Simple State Machine
-![FSM](assets/FSM.png)
+![FSM](assets/smach-fsm.png)
 
 The above image describes a state machihne which has three main states - Finding_Cornstalk, Cleaning_Calibrating and Insertion. The outcome of each state is the flag indicating the transition to the next state. The State Machine starts with Finding_Cornstalk state and ends when the output of any state is 'Stop'. Below is a skeleton code of how this state machine programming will look like - 
 
